@@ -11,9 +11,18 @@ class WritingContainer extends Component {
       posts: []
     };
   }
+
   componentDidMount() {
-    // use the Medium api eventually when they let you use it to just get posts.
+    axios.get('/posts.json')
+      .then(data => {
+        this.setState({
+          posts: data.items,
+          isLoading: false
+        });
+      })
+      .catch(err => console.error(err));
   }
+
   render() {
     let style = {
       textAlign: 'center'
@@ -27,6 +36,7 @@ class WritingContainer extends Component {
       margin: '20px',
       color: '#e08453'
     }
+    console.log(this.state);
     return (
       <div style={style}>
         <h1>Writing:</h1><hr />

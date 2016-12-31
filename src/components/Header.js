@@ -5,6 +5,8 @@ import {HorizontalLines} from './HorizontalLines';
 
 let linkStyle = {
   color: '#e08453',
+  position: 'relative',
+  zIndex: '8888',
   textDecoration: 'none'
 }
 
