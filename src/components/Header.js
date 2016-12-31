@@ -4,7 +4,7 @@ import {Navbar, Nav, NavItem, MenuItem, NavDropdown} from 'react-bootstrap';
 import {HorizontalLines} from './HorizontalLines';
 
 let linkStyle = {
-  color: 'lightblue',
+  color: '#e08453',
   textDecoration: 'none'
 }
 

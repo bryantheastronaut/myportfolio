@@ -27,7 +27,7 @@ export const About = () => {
           <li>I know some Python and Ruby too</li>
           <li>I am very interested in creating APIs and find security and user authentication fascinating</li>
           <li>I am a professional learner -- A.A. in Graphic Design, B.A. in Psychology and self taught programmer</li>
-          <li>I am passionate about teaching others, whether one-on-one or <Link to='/writing'>through tutorials</Link></li>
+          <li>I am passionate about teaching others, whether one-on-one or <a href='https://medium.com/@bryantheastronaut'>through tutorials</a></li>
           <li>I am pretty into functional programming</li>
         </ul>
         <p>
