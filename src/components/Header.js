@@ -8,7 +8,7 @@ let linkStyle = {
   position: 'relative',
   zIndex: '8888',
   textDecoration: 'none'
-}
+};
 
 let navbar = (
   <Navbar collapseOnSelect>

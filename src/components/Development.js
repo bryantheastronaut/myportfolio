@@ -4,7 +4,7 @@ import {Grid, Row, Col} from 'react-bootstrap';
 export const Development = () => {
   let style = {
     textAlign: 'center'
-  }
+  };
   let imageStyle = {
     width: '40vw',
     margin: '0 auto',
@@ -12,7 +12,7 @@ export const Development = () => {
     borderRadius: '5px',
     boxShadow: '2px 2px 2px #999',
     marginBottom: '10px'
-  }
+  };
   return (
     <div style={style}>
       <h2>DEVELOPMENT</h2><hr />

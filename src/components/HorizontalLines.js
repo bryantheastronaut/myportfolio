@@ -1,7 +1,8 @@
 import React from 'react';
 
 let style = {
-  marginTop: '-65px'
+  position: 'relative',
+  top: -20
 };
 
 export const HorizontalLines = () => {
